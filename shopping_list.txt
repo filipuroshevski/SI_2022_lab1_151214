@@ -3,3 +3,4 @@ ball x4
 pen x2
 table x1
 piano x1
+gift x13
