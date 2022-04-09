@@ -1,0 +1,26 @@
+1. Инсталација на Git
+2. Промена на име на главна гранка master
+3. Креиран репозиториум на Github со readme file во кој има име и презиме и индекс
+4. Клонирање на репозиториумот на локален компјутер со git clone https://github.com/filipuroshevski/SI_2022_lab1_151214.git
+5. Влез во локалниот фолдер на репото cd /SI_2022_lab1_151214, креирање на датотека shopping_list.txt со touch shopping_list.txt и додавање на 5 производи nano shopping_list.txt
+ за да го отвориме фајлот и ги доадаваме прозиводите.
+6. git commit -m "Add quantites to the items"
+7. git checkout -b branch1 креирање на прва гранка, git checkout -b branch2 креирање на втора.
+8. креирање на фолдер документација, со досегашните логови
+9. Синхронизација
+   git push origin branch1
+   git push origin branch2
+
+10. git checkout branch1 префрлување на гранка branch1
+11. Со nano shopping_list.txt влегуваме во датотеката и ја правиме промената, git commit -m "Change quantity of item #5"
+12. git checkout master  
+13. Промена на количината на вториот производ во  shopping_list.txt
+14. Синхронизација на сите гранки слично како во чекор 9. 
+15. git checkout branch2
+16. nano shopping_list.txt влез во датотекатаи промена на 4от производ од piano во phone, git commit -m "Modify item #4"
+17. 
+18. Додадена 6та ставка
+20. git checkout master, git merge branch1
+21. git merge branch2
+22. touch 151214.тхт .
+23. Sync
