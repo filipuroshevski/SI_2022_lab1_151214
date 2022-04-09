@@ -1,5 +1,6 @@
 phone x3
 ball x37
 pen x2
-monitor x1
+table x1
 piano x29
+gift x13
